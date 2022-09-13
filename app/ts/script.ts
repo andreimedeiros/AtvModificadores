@@ -17,14 +17,14 @@ console.log(pessoa.nome)
 console.log(pessoa.idade)
 console.log(pessoa.dataNascimento)
 
-let pessoaf = new Pessoa("José", 22, new Date(2000, 3, 9), "12345679800");
+let pessoaf = new PessoaFisica("José", 22, new Date(2000, 3, 9), "12345679800");
 console.log(pessoaf.nome)
 console.log(pessoaf.idade)
 console.log(pessoaf.dataNascimento)
 console.log(pessoaf.cpf)
 
 
-let pessoaj = new Pessoa("Maria Atacado", 20, new Date(2002, 1, 1), "12345678000001");
+let pessoaj = new PessoaJuridica("Maria Atacado", 20, new Date(2002, 1, 1), "12345678000001");
 console.log(pessoaj.nome)
 console.log(pessoaj.idade)
 console.log(pessoaj.dataNascimento)
