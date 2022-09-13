@@ -17,7 +17,7 @@ class Conta {
         // protected
         // readonly
 
-    protected nome: string;
+    private nome: string;
     private readonly _numero: string;
 
     constructor(numero: string, private saldo=0) {
