@@ -1,6 +1,6 @@
 class Pessoa {
 
-    private _nome: string;
+    protected _nome: string;
     private _idade: number;
     private _dataNascimento: Date;
 
