@@ -12,6 +12,24 @@ const contaBonificada = new ContaBonificada('10', 100);
 contaBonificada.creditar(10);
 console.log(contaBonificada.getSaldo());
 
+let pessoa = new Pessoa("Maria", 24, new Date(1998, 5, 6));
+console.log(pessoa.nome)
+console.log(pessoa.idade)
+console.log(pessoa.dataNascimento)
+
+let pessoaf = new Pessoa("José", 22, new Date(2000, 3, 9), "12345679800");
+console.log(pessoaf.nome)
+console.log(pessoaf.idade)
+console.log(pessoaf.dataNascimento)
+console.log(pessoaf.cpf)
+
+
+let pessoaj = new Pessoa("Maria Atacado", 20, new Date(2002, 1, 1), "12345678000001");
+console.log(pessoaj.nome)
+console.log(pessoaj.idade)
+console.log(pessoaj.dataNascimento)
+console.log(pessoaj.cnpj)
+
 
 // const repContas = new RepositorioContas();
 //
